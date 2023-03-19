@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>INVO Academy JS Starter with Vite</title>
+  </head>
+
+  <!-- In order to start your challenge, remove all the content inside <div id="home-page"></div> and start coding :) -->
+
+  <body>
+    <div id="home-page" class="home-page container">
+      <div class="card">
+        <header class="card__header">
+          <div class="card__rank--stars">
+            <div class="card__box--img">
+              <img src="/images/star.png" alt="star" class="card__img" />
+            </div>
+          </div>
+          <button class="card__btn--close">
+            <span class="line line--one"></span>
+            <span class="line line--two"></span>
+          </button>
+        </header>
+        <section class="card__content gird-flow">
+          <h1 class="card__title">How do you feel about using our product?</h1>
+
+          <div class="card__box--btn">
+            <button data-option="one" class="card__btn--number selected">
+              1
+            </button>
+            <button data-option="two" class="card__btn--number">2</button>
+            <button data-option="three" class="card__btn--number">3</button>
+            <button data-option="four" class="card__btn--number">4</button>
+            <button data-option="five" class="card__btn--number">5</button>
+          </div>
+          <div class="card__box--text grid-flow">
+            <p class="card__text">Extremly<br />dissatisfied</p>
+            <p class="card__text">Extremly<br />satisfied</p>
+          </div>
+          <div class="card__box--action">
+            <button class="card__btn--next">Next step</button>
+          </div>
+          <div class="card__info">
+            <div class="card__info--content">
+              <p class="card__info--text">Dziękujemy, że oceniłeś produkt na</p>
+              <div class="card__info--results"></div>
+            </div>
+          </div>
+        </section>
+      </div>
+    </div>
+    <script type="module" src="/src/global-scripts/main.js"></script>
+    <script
+      type="module"
+      src="/src/pages/home-page/scripts/home-page.js"
+    ></script>
+  </body>
+</html>

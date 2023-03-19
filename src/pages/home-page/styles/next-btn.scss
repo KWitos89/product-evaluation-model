@@ -1,0 +1,31 @@
+.card__btn--next {
+  align-items: center;
+  background-color: var(--color-background-btn);
+  border-radius: var(--border-radius-12);
+  color: var(--color-white);
+  display: flex;
+  font-size: var(--fs-12);
+  font-weight: var(--fw-semi-bold);
+  justify-content: center;
+  padding: 17px 40px;
+  pointer-events: none;
+  transition: background-color 0.35s linear;
+  width: 100%;
+
+  &:hover {
+    background-color: var(--color-hover);
+  }
+
+  &.active {
+    background-color: var(--color-blue);
+    pointer-events: auto;
+
+    &:hover {
+      background-color: var(--color-hover);
+    }
+  }
+
+  &.pressed {
+    background-color: var(--color-preesed);
+  }
+}

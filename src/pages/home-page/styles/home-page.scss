@@ -1,0 +1,15 @@
+/// Homepage Styles File
+/// Here we import all the Styles files we need for our Homepage.
+
+@import "/src/pages/home-page/styles/card.scss";
+@import "/src/pages/home-page/styles/next-btn.scss";
+@import "/src/pages/home-page/styles/number-btn.scss";
+@import "/src/pages/home-page/styles/reuse";
+@import "/src/pages/home-page/styles/close-btn.scss";
+
+.home-page {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}

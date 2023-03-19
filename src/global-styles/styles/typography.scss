@@ -1,0 +1,30 @@
+* {
+  letter-spacing: -0.03em;
+}
+
+h1,
+.card__btn--number {
+  color: var(--color-black);
+  font-size: var(--fs-18);
+  font-weight: var(--fw-semi-bold);
+  line-height: 19.8px;
+}
+
+p {
+  color: var(--color-gray-dark);
+  font-size: var(--fs-12);
+  font-weight: var(--fw-medium);
+  line-height: 14.4px;
+}
+
+.card__btn--number {
+  font-weight: var(--fw-medium);
+  line-height: 18px;
+}
+
+.card__btn {
+  color: var(--color-white);
+  font-size: var(--fs-14);
+  font-weight: var(--fw-semi-bold);
+  line-height: 14px;
+}

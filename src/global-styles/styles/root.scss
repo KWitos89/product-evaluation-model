@@ -1,0 +1,33 @@
+/// Root Styles file
+/// Here we define all the root variables we need for our project.
+/// For examples see Material Design color system: https://m2.material.io/design/color/the-color-system.html
+
+:root {
+  // colors //
+  --color-white: rgba(255, 255, 255, 1);
+  --color-white-second: rgba(252, 252, 255, 1);
+  --color-background-btn: rgba(240, 241, 248, 1);
+  --color-gray: rgba(218, 223, 233, 1);
+  --color-gray-dark: rgba(174, 181, 195, 1);
+  --color-black: rgba(13, 16, 22, 1);
+  --color-blue: rgba(41, 60, 226, 1);
+  --color-hover: rgba(71, 89, 244, 1);
+  --color-preesed: rgba(32, 50, 208, 1);
+  --color-yellow: rgba(242, 178, 52, 1);
+
+  //  border radius //
+  --border-radius-12: 12px;
+  --border-radius-18: 18px;
+
+  // font size //
+  --fs-18: 1.125rem;
+  --fs-14: 0.875rem;
+  --fs-12: 0.75rem;
+
+  // font weight //
+  --fw-medium: 500;
+  --fw-semi-bold: 600;
+
+  // font family //
+  --ff: "Montserrat", sans-serif;
+}
